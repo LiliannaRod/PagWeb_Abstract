@@ -62,29 +62,28 @@ div.Copyright{
 }
 
 .input-azul {
-    border: 2px solid #ccc; /* Borde gris por defecto */
-    border-radius: 4px; /* Bordes redondeados */
-    padding: 10px; /* Espaciado interno */
-    outline: none; /* Elimina el resalte predeterminado */
+    border: 2px solid #ccc; 
+    border-radius: 4px; 
+    padding: 10px; 
+    outline: none;
     width: 100%;
     height: 60px;
-  }
+}
 
-  /* Estilo del input cuando está enfocado */
-  .input-azul:focus {
-    border-color: blue; /* Cambia el color del borde a azul */
-  }
 
-  .input-azul::after {
-    content: '▼'; /* Agrega una flecha hacia abajo */
-    color: black; /* Color de la flecha */
-    position: absolute; /* Posicionamiento absoluto */
-    right: 10px; /* Posición desde la derecha */
-    top: 50%; /* Centra verticalmente */
-    transform: translateY(-50%); /* Alineación precisa */
-  }
+.input-azul:focus {
+    border-color: blue; 
+}
 
-  /* Estilo de la flecha cuando el input está enfocado */
-  .input-azul:focus::after {
-    color: blue; /* Cambia el color de la flecha a azul */
-  }
+.input-azul::after {
+    content: '▼'; 
+    color: black; 
+    position: absolute; 
+    right: 10px; 
+    top: 50%; 
+    transform: translateY(-50%); 
+}
+
+.input-azul:focus::after {
+    color: blue; 
+}
