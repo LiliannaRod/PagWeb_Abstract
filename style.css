@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+a.btn:hover{
+    background-color: white !important;
+    color: black !important;
+
+}
+
+
+.main-container{
+    background-color: #dadbf1;
+
+}
+
+li.border{
+    padding: 5px 20px;
+}
+
+li.transparency:hover{
+    opacity: 70%;
+}
+
+.contenedor-2{
+    margin-top: 8%;
+}
+
+a.fs-5{
+    text-decoration: none;
+}
+
+a.fs-5:hover{
+    text-decoration: underline;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+a.a:hover{
+    text-decoration: underline !important;
+}
+
+div.Copyright{
+    margin-top: 190px;
+}
+
+.input-azul {
+    border: 2px solid #ccc; /* Borde gris por defecto */
+    border-radius: 4px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno */
+    outline: none; /* Elimina el resalte predeterminado */
+    width: 100%;
+    height: 60px;
+  }
+
+  /* Estilo del input cuando está enfocado */
+  .input-azul:focus {
+    border-color: blue; /* Cambia el color del borde a azul */
+  }
+
+  .input-azul::after {
+    content: '▼'; /* Agrega una flecha hacia abajo */
+    color: black; /* Color de la flecha */
+    position: absolute; /* Posicionamiento absoluto */
+    right: 10px; /* Posición desde la derecha */
+    top: 50%; /* Centra verticalmente */
+    transform: translateY(-50%); /* Alineación precisa */
+  }
+
+  /* Estilo de la flecha cuando el input está enfocado */
+  .input-azul:focus::after {
+    color: blue; /* Cambia el color de la flecha a azul */
+  }
